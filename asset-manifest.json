@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/cv_polina_rudzenka/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/cv_polina_rudzenka/static/js/main.47f48add.chunk.js",
-    "main.js.map": "/cv_polina_rudzenka/static/js/main.47f48add.chunk.js.map",
+    "main.js": "/cv_polina_rudzenka/static/js/main.ff49af19.chunk.js",
+    "main.js.map": "/cv_polina_rudzenka/static/js/main.ff49af19.chunk.js.map",
     "runtime-main.js": "/cv_polina_rudzenka/static/js/runtime-main.21f58de4.js",
     "runtime-main.js.map": "/cv_polina_rudzenka/static/js/runtime-main.21f58de4.js.map",
     "static/js/2.adcb08a8.chunk.js": "/cv_polina_rudzenka/static/js/2.adcb08a8.chunk.js",
     "static/js/2.adcb08a8.chunk.js.map": "/cv_polina_rudzenka/static/js/2.adcb08a8.chunk.js.map",
     "index.html": "/cv_polina_rudzenka/index.html",
-    "precache-manifest.fb1305b932e9f36253e357b75a7dc006.js": "/cv_polina_rudzenka/precache-manifest.fb1305b932e9f36253e357b75a7dc006.js",
+    "precache-manifest.c23b143c7ffe298846fc9d087b91791b.js": "/cv_polina_rudzenka/precache-manifest.c23b143c7ffe298846fc9d087b91791b.js",
     "service-worker.js": "/cv_polina_rudzenka/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/cv_polina_rudzenka/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.adcb08a8.chunk.js.LICENSE.txt": "/cv_polina_rudzenka/static/js/2.adcb08a8.chunk.js.LICENSE.txt",
-    "static/media/avatar.jpeg": "/cv_polina_rudzenka/static/media/avatar.29be6f31.jpeg"
+    "static/media/avatar.jpeg": "/cv_polina_rudzenka/static/media/avatar.744d2516.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.21f58de4.js",
     "static/js/2.adcb08a8.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.47f48add.chunk.js"
+    "static/js/main.ff49af19.chunk.js"
   ]
 }

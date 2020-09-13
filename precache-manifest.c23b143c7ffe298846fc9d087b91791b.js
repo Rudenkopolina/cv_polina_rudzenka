@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a1ffbfb8752422bbcaf95b278270ee7",
+    "revision": "25a171dd7cf793692f33064c5d4d37f0",
     "url": "/cv_polina_rudzenka/index.html"
   },
   {
-    "revision": "218a0522a69060be1434",
+    "revision": "a2786f1bbbccdf98f3df",
     "url": "/cv_polina_rudzenka/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv_polina_rudzenka/static/js/2.adcb08a8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "218a0522a69060be1434",
-    "url": "/cv_polina_rudzenka/static/js/main.47f48add.chunk.js"
+    "revision": "a2786f1bbbccdf98f3df",
+    "url": "/cv_polina_rudzenka/static/js/main.ff49af19.chunk.js"
   },
   {
     "revision": "d4167ae06a3de842fd0e",
     "url": "/cv_polina_rudzenka/static/js/runtime-main.21f58de4.js"
   },
   {
-    "revision": "29be6f310bccc015e2e308db43453b1c",
-    "url": "/cv_polina_rudzenka/static/media/avatar.29be6f31.jpeg"
+    "revision": "744d2516f833e878f6c3638c9351ef26",
+    "url": "/cv_polina_rudzenka/static/media/avatar.744d2516.jpeg"
   }
 ]);
