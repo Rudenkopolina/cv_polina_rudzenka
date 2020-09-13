@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f493fa4b098dc062839c829ce06cfe0f",
+    "revision": "4b01fe0f0fcb0b88000ad5e5b3f24628",
     "url": "/cv_polina_rudzenka/index.html"
   },
   {
-    "revision": "33bbea5caba6fb6cbb47",
+    "revision": "9ae93aaa8d4552efc209",
     "url": "/cv_polina_rudzenka/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "de0d205d99ba19985fce",
-    "url": "/cv_polina_rudzenka/static/js/2.dde4d5d2.chunk.js"
+    "revision": "b2f1b1a0c01efe6387d0",
+    "url": "/cv_polina_rudzenka/static/js/2.ed15c5f7.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/cv_polina_rudzenka/static/js/2.dde4d5d2.chunk.js.LICENSE.txt"
+    "url": "/cv_polina_rudzenka/static/js/2.ed15c5f7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33bbea5caba6fb6cbb47",
-    "url": "/cv_polina_rudzenka/static/js/main.8dc407b2.chunk.js"
+    "revision": "9ae93aaa8d4552efc209",
+    "url": "/cv_polina_rudzenka/static/js/main.fc6f130d.chunk.js"
   },
   {
     "revision": "d4167ae06a3de842fd0e",

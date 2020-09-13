@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cv_polina_rudzenka/precache-manifest.d01415b04bc1231d583a2fff1f45e281.js"
+  "/cv_polina_rudzenka/precache-manifest.7e3802ab5d9b8a59b5c4bf864317f221.js"
 );
 
 self.addEventListener('message', (event) => {
