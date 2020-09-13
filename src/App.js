@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { background } from './common/theme';
+import { extraLightGrey } from './common/theme';
 import Sheet from './components/Sheet';
 
 function App() {
@@ -15,5 +15,5 @@ export default App;
 
 const Container = styled.div`
     display: flex;
-    background: ${background};
+    background: ${extraLightGrey};
 `;

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { sheetBackground } from '../common/theme';
+import { white } from '../common/theme';
 import Header from './Header';
 import Section from './Section';
 import DotedContent from './DotedContent';
@@ -58,7 +58,7 @@ function Sheet() {
 export default Sheet;
 
 const Container = styled.div`
-    background: ${sheetBackground};
+    background: ${white};
     width: 21cm;
     padding: 2.5rem;
     margin: 16px auto;
@@ -71,10 +71,14 @@ const ContentWrapper = styled.div`
 `;
 
 const LeftColumn = styled.div`
+    display: flex;
+    flex-direction: column;
     flex: 7;
     margin-right: 1rem;
 `;
 
 const RightColumn = styled.div`
+    display: flex;
+    flex-direction: column;
     flex: 3;
 `;

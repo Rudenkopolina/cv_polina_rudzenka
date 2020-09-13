@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { lightGrey, darkGrey, grey, red } from '../common/theme';
 
 function DotedContent({ data }) {
     return (
@@ -40,12 +41,14 @@ export default DotedContent;
 const Container = styled.div`
     padding: 1rem;
     font-size: .8rem;
+    padding-bottom: 0;
 `;
 
 const ContentWrapper = styled.div`
     position: relative;
     margin-left: 1rem;
     padding-bottom: 1rem;
+    color: ${darkGrey};
 
     :before {
         content: '';
@@ -54,7 +57,7 @@ const ContentWrapper = styled.div`
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background: red;
+        background: ${red};
         left: -1.25rem;
     }
 
@@ -64,7 +67,7 @@ const ContentWrapper = styled.div`
         top: 12px;
         width: 2px;
         height: 100%;
-        background: #b5b5b5;
+        background: ${lightGrey};
         left: -1rem;
     }
     :last-child:after {
@@ -85,7 +88,7 @@ const Title = styled.div``;
 const Date = styled.div``;
 
 const Description = styled.span`
-    color: #5f5f5f;
+    color: ${grey};
 `;
 
 const SubTitleWrapper = styled.div`
@@ -94,4 +97,5 @@ const SubTitleWrapper = styled.div`
 
 const SubTitle = styled.span`
     margin-right: .5rem;
+    font-weight: 600;
 `;

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { sectionHeader } from '../common/theme';
+import { gradient, darkGrey } from '../common/theme';
 import ProgressBar from './ProgressBar';
 
 function SkillsContent({ content }) {
@@ -24,18 +24,20 @@ export default SkillsContent;
 const Container = styled.div`
     padding: 1rem;
     font-size: .8rem;
+    padding-bottom: 0;
 `;
 
 const ContentWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     padding-bottom: 1rem;
+    color: ${darkGrey};
 
     & svg {
         margin-right: .5rem;
         width: 1rem;
         height: 1rem;
-        color: ${sectionHeader};
+        color: ${gradient};
     }
 `;
 

@@ -1,6 +1,10 @@
-export const background = '#f8f8f9';
-export const sheetBackground = '#fff';
-export const sectionBackground = '#f4f4f5';
-export const sectionHeader = '#36484f';
-export const headerText = '#fff';
-
+export const gradient = 'linear-gradient(15deg, #36484f 0%, #36484f 45%, #609087 100%)';
+export const darkGrey = '#3e3e3e';
+export const grey = '#5f5f5f';
+export const dimGrey = '#36484f';
+export const lightGrey = '#d4d4d4';
+export const extraLightGrey = '#f4f4f5';
+export const green = '#405a5d';
+export const darkGreen = '#242f33';
+export const red = '#e66849';
+export const white = '#fff';

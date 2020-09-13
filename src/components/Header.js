@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { sectionHeader, sectionBackground } from '../common/theme';
+import { gradient, extraLightGrey, darkGrey } from '../common/theme';
 import Avatar from '../common/images/avatar.jpeg'
 
 function Header() {
@@ -22,12 +22,12 @@ function Header() {
 export default Header;
 
 const Container = styled.div`
-    background: ${sectionBackground};
+    background: ${extraLightGrey};
     display: flex;
 `;
 
 const ImageWrapper = styled.div`
-    background: ${sectionHeader};
+    background: ${gradient};
     padding: .5rem 3rem .5rem 1rem;
     border-radius: 0 5px 5px 0;
     position: relative;
@@ -52,12 +52,13 @@ const Separator = styled.div`
     bottom: 0;
     border-top: 56px solid transparent;
     border-bottom: 56px solid transparent;
-    border-right: 30px solid ${sectionBackground};
-    `;
+    border-right: 30px solid ${extraLightGrey};
+`;
     
-    const NameBlock = styled.div`
+const NameBlock = styled.div`
     font-size: 2rem;
     margin-left: 2rem;
     display: flex;
     align-items: center;
+    color: ${darkGrey};
 `;

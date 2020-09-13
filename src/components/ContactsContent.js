@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { sectionHeader } from '../common/theme';
+import { dimGrey, grey } from '../common/theme';
 
 function ContactsContent({ content }) {
     return (
@@ -20,18 +20,19 @@ export default ContactsContent;
 const Container = styled.div`
     padding: 1rem;
     font-size: .8rem;
+    padding-bottom: 0;
 `;
 
 const ContentWrapper = styled.div`
     display: flex;
     padding-bottom: .5rem;
-    color: #5f5f5f;
+    color: ${grey};
 
     & svg {
         margin-right: .5rem;
         width: 1rem;
         height: 1rem;
-        color: ${sectionHeader};
+        color: ${dimGrey};
     }
 `;
 
