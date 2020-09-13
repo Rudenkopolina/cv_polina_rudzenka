@@ -4,13 +4,31 @@ import styled from 'styled-components';
 function DotedContent({ data }) {
     return (
         <Container>
-            {data.map(content => (
+            {data.map(({
+                title,
+                date,
+                description,
+                responsibilities,
+                technologies
+            }) => (
                 <ContentWrapper>
                     <Header>
-                        <Title>{content.title}</Title>
-                        <Date>{content.date}</Date>
+                        <Title>{title}</Title>
+                        <Date>{date}</Date>
                     </Header>
-                    <Description>{content.description}</Description>
+                    <Description>{description}</Description>
+                    {responsibilities && (
+                        <SubTitleWrapper>
+                            <SubTitle>Responsibilities:</SubTitle>
+                            <Description>{responsibilities}</Description>
+                        </SubTitleWrapper>
+                    )}
+                    {technologies && (
+                        <SubTitleWrapper>
+                            <SubTitle>Technologies:</SubTitle>
+                            <Description>{technologies}</Description>
+                        </SubTitleWrapper>
+                    )}
                 </ContentWrapper>
             ))}
         </Container>
@@ -66,6 +84,14 @@ const Title = styled.div``;
 
 const Date = styled.div``;
 
-const Description = styled.div`
+const Description = styled.span`
     color: #5f5f5f;
+`;
+
+const SubTitleWrapper = styled.div`
+    margin-top: .5rem;
+`;
+
+const SubTitle = styled.span`
+    margin-right: .5rem;
 `;

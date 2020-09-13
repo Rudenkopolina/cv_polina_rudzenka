@@ -8,7 +8,7 @@ function Section({ data, children, isRightSide }) {
     return (
         <Container>
             <RenderSection>
-                {title}
+                <Title>{title}</Title>
                 <IconWrapper>
                     <Icon />
                 </IconWrapper>
@@ -25,6 +25,7 @@ const Container = styled.div`
 `;
 
 const IconWrapper = styled.div`
+    display: flex;
     & svg {
         width: 1.5rem;
     }
@@ -36,7 +37,6 @@ const SectionHeader = styled.div`
     font-size: 1.2rem;
     text-transform: uppercase;
     padding: .5rem;
-    padding-left: 1.5rem;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -59,6 +59,8 @@ const LeftSectionHeader = styled(SectionHeader)`
 
 const RightSectionHeader = styled(SectionHeader)`    
     margin-right: -1rem;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     :before {
         content: '';
         position: absolute;
@@ -69,4 +71,8 @@ const RightSectionHeader = styled(SectionHeader)`
         border-left: 0;
         border-right-width: 1rem;
     }
+`;
+
+const Title = styled.div`
+    padding-left: 1.5rem;
 `;

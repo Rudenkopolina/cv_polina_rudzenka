@@ -5,18 +5,28 @@ import Header from './Header';
 import Section from './Section';
 import DotedContent from './DotedContent';
 import InfoContent from './InfoContent';
+import ContactsContent from './ContactsContent';
+import SkillsContent from './SkillsContent';
 
 import data from '../data';
 
 function Sheet() {
-    const { education, work, about } = data;
+    const {
+        education,
+        work,
+        about,
+        contacts,
+        languages,
+        skills,
+        projects,
+    } = data;
     return (
         <Container>
             <Header />
             <ContentWrapper>
                 <LeftColumn>
                     <Section data={about}>
-                        <InfoContent content={about.content} />
+                        <InfoContent content={about.info} />
                     </Section>
                     <Section data={education}>
                         <DotedContent data={education.content} />
@@ -24,10 +34,19 @@ function Sheet() {
                     <Section data={work}>
                         <DotedContent data={work.content} />
                     </Section>
+                    <Section data={projects}>
+                        <DotedContent data={projects.content} />
+                    </Section>
                 </LeftColumn>
                 <RightColumn>
-                    <Section data={about} isRightSide>
-                        <InfoContent content={about.content} />
+                    <Section data={contacts} isRightSide>
+                        <ContactsContent content={contacts.content} />
+                    </Section>
+                    <Section data={languages} isRightSide>
+                        <SkillsContent content={languages.content} />
+                    </Section>
+                    <Section data={skills} isRightSide>
+                        <SkillsContent content={skills.content} />
                     </Section>
                 </RightColumn>
 
@@ -41,7 +60,6 @@ export default Sheet;
 const Container = styled.div`
     background: ${sheetBackground};
     width: 21cm;
-    height: 29.7cm;
     padding: 2.5rem;
     margin: 16px auto;
     box-shadow: 0 0 0.5cm rgb(0 0 0 / 15%);
