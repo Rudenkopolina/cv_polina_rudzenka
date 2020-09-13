@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b01fe0f0fcb0b88000ad5e5b3f24628",
+    "revision": "d7478f3ee9cfb31df4fcae983c6b9231",
     "url": "/cv_polina_rudzenka/index.html"
   },
   {
