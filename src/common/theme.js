@@ -6,5 +6,6 @@ export const lightGrey = '#d4d4d4';
 export const extraLightGrey = '#f4f4f5';
 export const green = '#405a5d';
 export const darkGreen = '#242f33';
+export const lightGreen = '#609087';
 export const red = '#e66849';
 export const white = '#fff';
