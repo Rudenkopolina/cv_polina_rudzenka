@@ -17,7 +17,7 @@ export default {
     about: {
         title: 'about',
         Icon: FaIdCard,
-        info: "I'm a software engineer with more than 2 years of experience. I am always interested in innovations in the IT sector and always try to learn something new. I am a responsible person and always try to do my best while working on the projects.",
+        info: "I'm a software engineer with several years of experience. I am always interested in innovations in the IT sector and always try to learn something new. I am a responsible person and always try to do my best while working on the projects.",
     },
     contacts: {
         title: 'contacts',
@@ -78,12 +78,10 @@ export default {
             {
                 title: 'IBA',
                 description: 'Full Stack Engineer',
-                date: '11/2018 - PRESENT',
             },
             {
                 title: 'Paralect',
                 description: 'Full Stack Engineer',
-                date: '07/2018 - 11/2018',
             }
         ]
     },
