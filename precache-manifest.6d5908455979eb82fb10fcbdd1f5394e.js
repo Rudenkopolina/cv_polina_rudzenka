@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25a171dd7cf793692f33064c5d4d37f0",
+    "revision": "71106b153a9cc63bdf5d9d392b83d345",
     "url": "/cv_polina_rudzenka/index.html"
   },
   {
-    "revision": "a2786f1bbbccdf98f3df",
+    "revision": "9b2cd832d2d0cbf92283",
     "url": "/cv_polina_rudzenka/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv_polina_rudzenka/static/js/2.adcb08a8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a2786f1bbbccdf98f3df",
-    "url": "/cv_polina_rudzenka/static/js/main.ff49af19.chunk.js"
+    "revision": "9b2cd832d2d0cbf92283",
+    "url": "/cv_polina_rudzenka/static/js/main.b2674e28.chunk.js"
   },
   {
     "revision": "d4167ae06a3de842fd0e",
