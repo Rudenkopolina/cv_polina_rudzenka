@@ -1,11 +1,9 @@
-export const gradient = 'linear-gradient(15deg, #36484f 0%, #36484f 45%, #609087 100%)';
-export const darkGrey = '#3e3e3e';
-export const grey = '#5f5f5f';
-export const dimGrey = '#36484f';
-export const lightGrey = '#d4d4d4';
-export const extraLightGrey = '#f4f4f5';
-export const green = '#405a5d';
-export const darkGreen = '#242f33';
-export const lightGreen = '#609087';
-export const red = '#e66849';
-export const white = '#fff';
+export const darkGrey = "#3e3e3e";
+export const extraLightGrey = "#f4f4f5";
+export const white = "#fff";
+
+export const color1 = "#CC8B86";
+export const color2 = "#F9EAE1";
+export const color3 = "#7D4F50";
+export const color4 = "#D1BE9C";
+export const color5 = "#AA998F";

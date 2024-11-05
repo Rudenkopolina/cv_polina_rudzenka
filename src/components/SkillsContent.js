@@ -1,52 +1,49 @@
-import React from 'react';
-import styled from 'styled-components';
-import { gradient, darkGrey } from '../common/theme';
-import ProgressBar from './ProgressBar';
+import React from "react";
+import styled from "styled-components";
+import { color4, white } from "../common/theme";
+import ProgressBar from "./ProgressBar";
 
-function SkillsContent({ content }) {
-    return (
-        <Container>
-            {content.map(({ info, subInfo, grade }) => (
-                <ContentWrapper>
-                    <InfoWrapper>
-                        <Info>{info}</Info>
-                        <SubInfo>{subInfo}</SubInfo>
-                    </InfoWrapper>
-                    {grade && <ProgressBar grade={grade} />}
-                </ContentWrapper>
-            ))}
-        </Container>
-    );
-}
+const SkillsContent = ({ content }) => (
+  <Container>
+    {content.map(({ info, subInfo, grade }, index) => (
+      <ContentWrapper key={`${info}-${index}`}>
+        <InfoWrapper>
+          <Info>{info}</Info>
+          <SubInfo>{subInfo}</SubInfo>
+        </InfoWrapper>
+        {grade && <ProgressBar grade={grade} />}
+      </ContentWrapper>
+    ))}
+  </Container>
+);
 
 export default SkillsContent;
 
 const Container = styled.div`
-    padding: 1rem;
-    font-size: .8rem;
-    padding-bottom: 0;
+  font-size: 0.8rem;
+  padding-top: 1rem;
 `;
 
 const ContentWrapper = styled.div`
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 1rem;
-    color: ${darkGrey};
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  color: ${white};
 
-    & svg {
-        margin-right: .5rem;
-        width: 1rem;
-        height: 1rem;
-        color: ${gradient};
-    }
+  & svg {
+    margin-right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    color: ${color4};
+  }
 `;
 
 const InfoWrapper = styled.div``;
 
 const Info = styled.span`
-    font-weight: 700;
+  font-weight: 700;
 `;
 
 const SubInfo = styled.span`
-    margin-left: 5px;
+  margin-left: 5px;
 `;

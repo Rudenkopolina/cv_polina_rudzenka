@@ -1,40 +1,36 @@
-import React from 'react';
-import styled from 'styled-components';
-import { dimGrey, grey } from '../common/theme';
+import React from "react";
+import styled from "styled-components";
+import { color4, white } from "../common/theme";
 
-function ContactsContent({ content }) {
-    return (
-        <Container>
-            {content.map(({ info, Icon }) => (
-                <ContentWrapper>
-                    <Icon />
-                    <Info>{info}</Info>
-                </ContentWrapper>
-            ))}
-        </Container>
-    );
-}
+const ContactsContent = ({ content }) => (
+  <Container>
+    {content.map(({ info, Icon }, index) => (
+      <ContentWrapper key={`${info}-${index}`}>
+        <Icon />
+        <Info>{info}</Info>
+      </ContentWrapper>
+    ))}
+  </Container>
+);
 
 export default ContactsContent;
 
 const Container = styled.div`
-    padding: 1rem;
-    font-size: .8rem;
-    padding-bottom: 0;
+  font-size: 0.8rem;
+  padding: 1rem 0 0 0.25rem;
 `;
 
 const ContentWrapper = styled.div`
-    display: flex;
-    padding-bottom: .5rem;
-    color: ${grey};
+  display: flex;
+  padding-bottom: 0.5rem;
+  color: ${white};
 
-    & svg {
-        margin-right: .5rem;
-        width: 1rem;
-        height: 1rem;
-        color: ${dimGrey};
-    }
+  & svg {
+    margin-right: 1rem;
+    width: 1rem;
+    height: 1rem;
+    color: ${color4};
+  }
 `;
-
 
 const Info = styled.div``;
