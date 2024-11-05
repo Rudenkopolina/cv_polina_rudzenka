@@ -95,4 +95,5 @@ const Image = styled.img`
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid #fff;
+  object-fit: cover;
 `;
